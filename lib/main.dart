@@ -32,8 +32,8 @@ class OnboardingScreen extends StatelessWidget {
       const SystemUiOverlayStyle(
         statusBarColor: Color(0xFFFFB800),
         statusBarIconBrightness: Brightness.dark,
-        navigationBarColor: Colors.white,
-        navigationBarIconBrightness: Brightness.dark,
+        systemNavigationBarColor: Colors.white,
+        systemsystemNavigationBarIconBrightness: Brightness.dark,
       ),
     );
 
@@ -299,8 +299,8 @@ class _ReplyGeneratorScreenState extends State<ReplyGeneratorScreen> {
       const SystemUiOverlayStyle(
         statusBarColor: Color(0xFFFFB800),
         statusBarIconBrightness: Brightness.dark,
-        navigationBarColor: Colors.white,
-        navigationBarIconBrightness: Brightness.dark,
+        systemNavigationBarColor: Colors.white,
+        systemsystemNavigationBarIconBrightness: Brightness.dark,
       ),
     );
 
