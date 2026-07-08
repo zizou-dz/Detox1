@@ -24,6 +24,14 @@ jobs:
         with:
           channel: stable
 
+      - name: Check project files
+        run: |
+          pwd
+          ls -la
+
+      - name: Generate missing Android files
+        run: flutter create --platforms=android --project-name replyboss_ai .
+
       - name: Get packages
         run: flutter pub get
 
