@@ -1,5 +1,5 @@
 name: detox
-description: "A minimalist 150-day detox tracker application."
+description: "AI Terminal - Generate code and files with AI assistance"
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -10,6 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
   shared_preferences: ^2.2.0
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
 
 dev_dependencies:
   flutter_test:
