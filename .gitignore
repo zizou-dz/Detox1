@@ -1,58 +1,33 @@
 ```
-# Dependencies
-.dart_tool/
-.build/
-dependencies/
-
-# Build outputs
-build/
-**/BUILD/**
-**/build/**
+# Build artifacts
+*.apk
+*.aar
+*.so
+*.dex
+*.class
 
 # Gradle
 .gradle/
-**/gradle-wrapper.jar
+build/
+intermediates/
+outputs/
 
-# Android
-*.keystore
-*.jks
-/local.properties
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/caches
-/.idea/codeStyles
-/.idea/assetWizardSettings.xml
-/.idea/compiler.xml
-/.idea/deploymentTargetSelector.xml
-/.idea/encodings.xml
-/.idea/gradle.xml
-/.idea/misc.xml
-/.idea/vcs.xml
-/.idea/runConfigurations/
-/.idea/navigationEditor.xml
-/.idea/shaders.xml
+# Android Studio
+*.iml
+*.iws
+.idea/
 
-# Flutter
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-generated_plugin_registrant.dart
-
-# Temp files
-*.tmp
-*.temp
+# Logs
 *.log
 
 # Environment
 .env
 .env.local
-.env.*
-!.env.example
+*.env.*
 
-# OS generated files
+# Temp files
+*.tmp
+*~
 .DS_Store
 Thumbs.db
 ```
