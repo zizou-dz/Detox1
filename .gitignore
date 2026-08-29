@@ -1,0 +1,58 @@
+```
+# Dependencies
+.dart_tool/
+.build/
+dependencies/
+
+# Build outputs
+build/
+**/BUILD/**
+**/build/**
+
+# Gradle
+.gradle/
+**/gradle-wrapper.jar
+
+# Android
+*.keystore
+*.jks
+/local.properties
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/caches
+/.idea/codeStyles
+/.idea/assetWizardSettings.xml
+/.idea/compiler.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/encodings.xml
+/.idea/gradle.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/runConfigurations/
+/.idea/navigationEditor.xml
+/.idea/shaders.xml
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+generated_plugin_registrant.dart
+
+# Temp files
+*.tmp
+*.temp
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+!.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
