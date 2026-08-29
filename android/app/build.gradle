@@ -42,7 +42,7 @@ android {
 
     defaultConfig {
         applicationId "com.aiterminal.app"
-        minSdk 21
+        minSdk 26
         targetSdk flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
